@@ -1,0 +1,336 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* header section */
+header {
+  width: 100%;
+  float: left;
+  background-color: #f6f9f9;
+  padding: 20px 0;
+}
+.logo {
+  width: 40%;
+  float: left;
+}
+.menu {
+  width: 60%;
+  float: left;
+  padding-top: 10px;
+  text-align: right;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+nav ul li a {
+  color: #161616;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: #15a4fa;
+}
+
+/* Banner Section */
+.banner {
+  width: 100%;
+  float: left;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-main {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+}
+.banner-main h2 {
+  color: white;
+  font-size: 120px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+.banner-main span {
+  border-bottom: 2px solid #15a4fa;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.banner-main p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.banner-btn {
+  padding: 20px 35px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid #15a4fa;
+  margin-bottom: 100px;
+  transition: 0.4s ease-in-out;
+}
+.banner-btn:hover {
+  background: #15a4fa;
+  cursor: pointer;
+}
+.banner-icon {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.fa.fa-chevron-down {
+  font-weight: lighter;
+}
+
+/* Service Section */
+.service {
+  width: 100%;
+  float: left;
+}
+.service-text {
+  background-color: #f6f9f9;
+  text-align: center;
+  padding: 80px;
+}
+.service-text h3 {
+  color: #2d3950;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.service-text p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.service-content {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  padding: 65px 0px;
+}
+.service-box {
+  float: left;
+  height: 200px;
+  width: 33.33%;
+  text-align: center;
+}
+.service-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #15a4fa;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 auto;
+}
+.fa.fa-mobile {
+  font-size: 60px;
+  margin-top: 5px;
+}
+.fa.fa-paper-plane {
+  margin-top: 17px;
+}
+.fa.fa-bullhorn {
+  font-size: 37px;
+  margin-top: 16px;
+}
+
+.service-box h3 {
+  margin-top: 22px;
+  font-family: "Lato", sans-serif;
+  color: #2d3950;
+  font-size: 20px;
+}
+.service-box p {
+  margin-top: 16px;
+  font-family: "Lato", sans-serif;
+  color: #999999;
+}
+
+/* Gallery Section */
+.gallery {
+  width: 100%;
+  float: left;
+  background-color: #f6f9f9;
+}
+.gallery-text {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 50px auto;
+}
+.gallery-text h2 {
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  color: #2d3950;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.gallery-text p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.gallery-content {
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+}
+.row {
+  width: 100%;
+  float: left;
+  margin: 17px 0px;
+}
+.gallery-box {
+  float: left;
+  margin-left: 38px;
+}
+.gallery-box img {
+  width: 342px;
+  height: 247px;
+}
+
+/* Contact Section */
+.contact {
+  width: 100%;
+  float: left;
+  background-image: url(../img/bgov.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-text {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.contact-text h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  word-spacing: 4px;
+  margin-bottom: 10px;
+}
+.contact-text p {
+  font-family: "Lato", sans-serif;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+.contact-form {
+  width: 40%;
+  margin: 0 auto;
+}
+.form-control {
+  width: 95%;
+  background: transparent;
+  border-style: none;
+  border: 1px solid #999999;
+  height: 55px;
+  padding-left: 20px;
+  margin: 12px auto;
+  font-family: "Lato", sans-serif;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+.msg-form {
+  height: 150px;
+  margin-bottom: 24px;
+}
+.sub {
+  height: 14px;
+  width: 14px;
+  background-color: #999999;
+}
+label {
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.send-btn {
+  background: transparent;
+  border-style: none;
+  border: 1px solid #15a4fa;
+  padding: 13px 45px;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  color: white;
+  margin-left: 155px;
+  transition: 0.4s ease-in-out;
+  margin-bottom: 80px;
+}
+.send-btn:hover {
+  background: #15a4fa;
+  cursor: pointer;
+}
+.form-control:hover {
+  background: #15a2fa21;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #f6f9f9;
+  width: 100%;
+  float: left;
+  padding: 24px 0px;
+}
+.footer-text {
+  width: 65%;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  margin-left: 8px;
+  font-size: 14px;
+  float: left;
+}
+.footer-logos {
+  float: left;
+  text-align: right;
+  margin-left: 131px;
+}
+.footer-logos ul {
+  list-style: none;
+  text-align: right;
+}
+.footer-logos ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+.footer-logos ul li i {
+  text-align: center;
+  float: left;
+  color: white;
+  background-color: #15a4fa;
+  padding: 10px 8px 0px;
+  height: 30px;
+  width: 26px;
+  font-size: 18px;
+  border-radius: 2px;
+  transition: 0.3s ease-in;
+}
+.footer-logos ul li i:hover {
+  background-color: #68c2fa;
+}
